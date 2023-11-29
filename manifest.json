@@ -1,0 +1,27 @@
+{
+    "app": "de.keb.helio-appserver",
+    "version": "##VERSION##",
+    "revision": "##FLECS_VERSION##",
+    "title": "Helio App Server",
+    "author": "KEB Automation KG",
+    "image": "flecs.azurecr.io/de.keb.helio-appserver",
+    "description": "HMI app",
+    "avatar": "",
+    "category": "hmi",
+    "multiInstance": false,
+    "editor": ":8512",
+    "args": [],
+    "capabilities": [],
+    "conffiles": [],
+    "devices": [],
+    "env": [],
+    "interactive": false,
+    "ports": [
+        "8512:8512"
+    ],
+    "startupOptions": [],
+    "volumes": [
+        "helio:/helio",
+        "/var/lib/dbus/machine-id:/var/lib/dbus/machine-id"
+    ]
+}
