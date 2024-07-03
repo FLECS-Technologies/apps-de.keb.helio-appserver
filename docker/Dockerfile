@@ -5,7 +5,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM flecs/helio-appserver:${VERSION}
+FROM kebhmicr.azurecr.io/helio:${VERSION}
 
 ARG ARCH
 ARG VERSION
